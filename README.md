@@ -18,9 +18,9 @@ With your table mates and answer the following questions about each methods
 3. What happens if none of the parameters match? (i.e. what if `Tweet.find(5)` can't find that tweet? How about `Tweet.find_by(id: 6)`? 
 
 
-## Part Two - Name that SQL! 
+## [OPTIONAL] Part Two - Name that SQL! 
 
-Pretend that you have a `tweets` table with two columns - `message` and `user_id`. Given the code below, write in a notebook or on a whiteboard what SQL statements will fire when the following methods are called? 
+Pretend that you have a `tweets` table with two columns - `message` and `user_id`. Given the code below, write in a notebook or on a whiteboard what SQL statements will fire when the following methods are called. You may also research online or clone the ActiveRecord lecture (which has SQL logging enabled) and try these methods out on the `Driver` in the `rake console`to see what SQL ie executed.
 
 ```
 class Tweet < ActiveRecord::Base
